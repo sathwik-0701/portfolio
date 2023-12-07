@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64203c9adb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h3><span>S</span>athwik.</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+           </nav>
+            <div class="header-text">
+                <p>UI/UX Designer & Software Developer</p>
+                <h1>Hi,I'm <span>Sathwik</span><br>Student</h1>
+            </div>
+        </div>
+    </div>
+
+<!----------------ABOUT----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sathwik3.PNG">
+                </div>
+                <div class="about-col-2">
+                    <h4 class="sub-title">About Me</h4></br></h4>
+                    <p class="Home">A front-end developer with Entry-level experience specializing in web devlopment
+                        UI design,HTML and React js.Adept at identifying opportunites to enhance 
+                        front-end design and improve the UX.Corrdinate with web development team to 
+                        design UI for client websites using HTML,Javascript, and React js.Design,
+                        develop and web applications for cutomers accounts, which includes debugging
+                        issues,and identifying solutions.</p>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <li><span>Web Technologies</span><br>HTMl,CSS and Javascript</li>
+                            <li><span>Programming Languages</span><br>JAVA,C,PYTHON</li>
+                            <li><span>Database Technologies</span><br>Oracle MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2019-2023</span><br>Computer science and engineering</li>
+                            <li><span>2017-2019</span><br>Telangana State Board of Intermediate Education </li>
+                            <li><span>2016-2017</span><br>Board of Secondary Education,Telangana </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------    services ------------------>
+
+<div id="services">
+   <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>As a passionate web devloper.I am a highly analytical web developer
+                with expertise in HTML,CSS,Javascript and various front-end frameworks.
+                I develop dynamic and responsive interfaces that meet client needs.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Software Developer</h2>
+            <p>Recent Computer science and engineering graduate with fundamental 
+                knowledge of programming languages like C++,Java and Python.
+                seeking to utilize broad educational background with excellent technical skills.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+   </div>
+</div>
+
+<!--------------Portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="images/bgm1.jpeg">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Weather App is the application of science and technology to predict the conditions of the atmosphere
+                        for a giveb location and time.
+                    </p>
+                    <a href="https://github.com/sathwik-0701/weather-App.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+            <img src="images/images tygg.jpeg">
+            <div class="layer">
+                <h3>Social Media Application</h3>
+                <p>A Social Media application is used to connect with people around the world 
+                    we can watch what is going around the world, you comment,share,and like a 
+                    photo in social media application.
+                </p>
+                <a href="https://github.com/sathwik-0701/Social-media-app.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work"> 
+                <img src="images/resta.jpeg">
+                <div class="layer">
+                    <h3>Restaurant Platform</h3>
+                    <p>A Restaurant Platform are responsible for taking coustomer's orders,serving food and drinks and 
+                        booking the dining where ever you there.
+                    </p>
+                    <a href="https://github.com/sathwik-0701/restaurant.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------------------CONTACT-------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sathwikreddy7701@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8978726364</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sathwik-0701"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sathwik-reddy-894a55241"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/sathwik res.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-----------------------------Script-------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+       {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
